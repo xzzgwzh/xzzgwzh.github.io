@@ -16,7 +16,7 @@
 /*公用样式*/
 
 body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
-body,button,input,select,textarea{font:12px/1.5 tahoma, Microsoft YaHei,\5b8b\4f53; *font-family: 'Microsoft YaHei'; color: #616161;}
+body,button,input,select,textarea{font:12px/1.5 tahoma, Microsoft YaHei,\5b8b\4f53; *font-family: 'Microsoft YaHei';}
 img{border:none;}
 li{list-style:none;}
 input,select,textarea{outline:none;border:none; background:none;}
@@ -148,7 +148,7 @@ div.maindiv1 ul li{float:left;width:360px;height:100px;margin-left:13px;}
 .dyScroll .focusBox .pic img { width: 540px;height: 340px;  display: block; }
 .dyScroll .focusBox .txt-bg { position: absolute; bottom: 0; z-index: 1; height: 40px; width:100%;background: #333; filter: alpha(opacity=40); opacity: 0.4;  _background:url(/medias/new-tm.png);overflow: hidden; }
 .dyScroll .focusBox .txt { position: absolute; bottom: 0; z-index: 2; height: 40px; width:100%; overflow: hidden; }
-.dyScroll .focusBox .txt li{ height:40px; line-height:40px; position:absolute; bottom:-36px;}
+.dyScroll .focusBox .txt li{ height:40px; line-height:40px; position:absolute; bottom:-36px;color: #dfdbdb;padding-left: 10px;}
 .dyScroll .focusBox .txt li a{ display: block; color: white; padding: 0 0 0 10px; font-size: 14px;font-family: 微软雅黑; font-weight: bold; text-decoration: none; }
 .dyScroll .focusBox .num { position: absolute; z-index: 3; bottom: 16px; right: 8px; }
 .dyScroll .focusBox .num li{ float: left; position: relative; width: 30px; height: 5px; overflow: hidden; text-align: center; margin-right: 5px; cursor: pointer; }
@@ -287,4 +287,3 @@ div.maindiv1 ul li{float:left;width:360px;height:100px;margin-left:13px;}
 .xybox p{line-height: 28px;margin-top: 20px;font-size:14px;text-indent: 24px; color:#383838;}
 
 
- 
