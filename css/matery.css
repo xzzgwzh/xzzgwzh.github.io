@@ -900,6 +900,8 @@ padding-top: 20px;
 
 #artDetail .post-info {
     color: #525f7f;
+ font-size: 14px;
+  padding-left: 20px;
 }
 
 #artDetail .post-info .post-category {
