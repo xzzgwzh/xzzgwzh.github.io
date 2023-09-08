@@ -13,6 +13,9 @@
 |              WUXIAOLI
 +-------------------------------------------*/
 
+
+
+
 /*公用样式*/
 
 body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
@@ -30,8 +33,8 @@ table {border-collapse: collapse;border-spacing: 0; }
 .clearfix{zoom:1;}
 .fl{float:left;}
 .fr{float:right; margin-left:15px;}	
-.comWidth{ width:1200px; margin-left:auto; margin-right:auto;}
-.comWidth1{ width:1200px; margin-left:auto; height:100%; margin-right:auto;background:#fff;padding:0 10px; }
+.comWidth{ width:1220px; margin-left:auto; margin-right:auto;}
+.comWidth1{ width:1220px; margin-left:auto; height:100%; margin-right:auto;background:#fff;padding:0 10px; }
 .leftArea{float:left;}
 .rightArea{float:right;}
 .hide{display:none;}
