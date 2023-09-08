@@ -74,9 +74,9 @@ $(function () {
 
         $('#articleContent img').each(function () {
             let imgPath = $(this).attr('src');
-            $(this).wrap('<div class="img-item" data-src="' + imgPath + '" data-sub-html=".caption"></div>');
+            // $(this).wrap('<div class="img-item" data-src="' + imgPath + '" data-sub-html=".caption"></div>');
             // 图片添加阴影
-            $(this).addClass("img-shadow img-margin");
+            $(this).addClass("img-shadow img-margin zoom");
             // 图片添加字幕
             let alt = $(this).attr('alt');
             let title = $(this).attr('title');
@@ -100,11 +100,6 @@ $(function () {
                 this.insertAdjacentElement('afterend', captionDiv)
             }
         });
-        $('#articleContent, #myGallery').lightGallery({
-            selector: '.img-item',
-            // 启用字幕
-            subHtmlSelectorRelative: true
-        });
 
         // progress bar init
         const progressElement = window.document.querySelector('.progress-bar');
@@ -115,6 +110,12 @@ $(function () {
         }
     };
     articleInit();
+
+    //图片点击效果
+    mediumZoom(document.querySelectorAll('.zoom'), {
+        margin: 48,
+        background: 'rgba(25, 18, 25, .8)',
+    });
 
     $('.modal').modal();
 
@@ -166,7 +167,4 @@ $(function () {
                 $('.m-nav-item.m-nav-show').removeClass('m-nav-show');
             }
     });
-
-    // 初始化加载 tooltipped.
-    $('.tooltipped').tooltip();
 });
