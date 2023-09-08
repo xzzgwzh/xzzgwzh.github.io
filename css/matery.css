@@ -16,8 +16,7 @@
 /*大屏幕下(桌面类)的样式*/
 @media only screen and (min-width: 993px) {
     .container {
-        width: 90%;
-        max-width: 1125px;
+
     }
 
     .head-container {
@@ -235,7 +234,7 @@ mark {
 }
 
 .card {
-    background: #eff4fdc2;
+   
     border-radius: 10px;
     box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07) !important;
 }
@@ -297,10 +296,12 @@ header nav .brand-span {
     font-size: 1.45rem;
 }
 
+
 header .brand-logo .logo-img {
-    height: 45px;
-    vertical-align: middle;
-    padding-bottom: 6px;
+    height: 60px;
+    /*! vertical-align: middle; */
+    /*! padding-bottom: 0; */
+    padding-top: 5px;
 }
 
 header .brand-logo .logo-span {
@@ -1005,7 +1006,7 @@ article .article-tags .chip {
 
 /*文章详情样式*/
 #artDetail {
-    margin-top: -60px;
+    margin-top: 20px;
 }
 
 /* 修改小屏幕下文章详情table样式. */
@@ -1017,7 +1018,7 @@ article .article-tags .chip {
 
 @media only screen and (min-width: 1418px) {
     #artDetail {
-        margin-top: -60px;
+        margin-top: 20px;
         padding: 0 0.75rem;
     }
 }
